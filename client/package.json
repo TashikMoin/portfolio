@@ -12,7 +12,11 @@
     "@acto/react-navbar": "^2.3.2",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-lazy-hero": "^2.0.0",
+    "react-skills": "^1.27.0",
+    "styled-components": "^5.3.0",
+    "typewriter-effect": "^2.18.0"
   },
   "devDependencies": {
     "eslint": "7.30.0",

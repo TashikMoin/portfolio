@@ -1,20 +1,21 @@
 import React from 'react';
 import Navbar from '@acto/react-navbar';
-import navbarStyle from '../../../styles/navbar/Navbar.module.css'
+import navbarStyle from '../../../styles/Navbar/Navbar.module.css'
+import Link from 'next/link'
 
 const navTheme = {
     mainColor: '#000000',
     menuBgColor: '#edf7f3'
 }
 
-const navBrand = <a href="/">Tashik Moin.</a>
+const navBrand = <Link href="/">Tashik Moin.</Link>
  
 const rightLinks = (
   <>
-    <a href='/home'>Home</a>
-    <a href='/portfolio'>Portfolio</a>
-    <a href='/about'>About</a>
-    <a href='/contact'>Contact</a>
+    <Link href='/home'>Home</Link>
+    <Link href='/portfolio'>Portfolio</Link>
+    <Link href='/about'>About</Link>
+    <Link href='/contact'>Contact</Link>
   </>
 )
 
@@ -23,8 +24,6 @@ const ResponsiveNavbar = () => {
         <div>
             <Navbar
             className={navbarStyle.hamburger}
-            // className="navbar" 
-            // menuClassName={navbarStyle.hamburger} 
             brand={navBrand}
             theme={navTheme}
             rightLinks={rightLinks}
