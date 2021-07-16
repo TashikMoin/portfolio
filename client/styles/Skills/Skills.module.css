@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #000000;
+    height: 7vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 2vh;
+}
+
+.container:hover {
+    color: #6d6d6d;
+    cursor: pointer;
+}
