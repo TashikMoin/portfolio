@@ -7,9 +7,9 @@ function Hero() {
     return (
         <React.Fragment>
             <LazyHero 
-            imageSrc="https://i.picsum.photos/id/318/2000/1000.jpg?hmac=gCXCUbTj87rMuNWwMHZPcizDRcBy_7jXJq2w0FjuG4E" 
+            imageSrc="https://i.picsum.photos/id/677/2000/1000.jpg?hmac=4P_HIHXZzgKwEWxcIeZBVw_YFwxnmo-wwEb_C0m54P0" 
             minHeight='100vh' 
-            opacity={0.2}
+            opacity={0.7}
             transitionDuration={3000}
             transitionTimingFunction='ease-in-out'
             >
