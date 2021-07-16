@@ -1,0 +1,28 @@
+.textcenter{
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.rootdiv{
+    margin-top: 15vh;
+}
+
+.title {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: #6d6d6d;
+}
+
+.subtitle {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: #000000;
+}
+
+.description {
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+    text-align: justify;
+    color: #6d6d6d;
+}
