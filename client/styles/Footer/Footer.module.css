@@ -1,0 +1,30 @@
+.container {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    border-top: 2px solid #c7c7c7;
+}
+
+.heading {
+    font-size: 1rem;
+    color: #6d6d6d;
+}
+
+.copyright {
+    margin-right: 1vw;
+}
+
+.social { 
+    display: inline-flex;
+}
+
+.social:hover {
+    background-color: #c7c7c7;
+    cursor: pointer;
+}
+
+
+

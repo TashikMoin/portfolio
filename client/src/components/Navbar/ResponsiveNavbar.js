@@ -4,7 +4,7 @@ import navbarStyle from '../../../styles/Navbar/Navbar.module.css'
 import Link from 'next/link'
 
 const navTheme = {
-    mainColor: '#000000',
+    mainColor: '#6d6d6d',
     menuBgColor: '#edf7f3'
 }
 
@@ -12,10 +12,10 @@ const navBrand = <Link href="/">Tashik Moin.</Link>
  
 const rightLinks = (
   <>
-    <Link href='/home'>Home</Link>
+    <Link href='/'>Home</Link>
     <Link href='/portfolio'>Portfolio</Link>
+    <Link href='/trainings'>Trainings</Link>
     <Link href='/about'>About</Link>
-    <Link href='/contact'>Contact</Link>
   </>
 )
 

@@ -1,14 +1,12 @@
 import ResponsiveNavbar from '../src/components/Navbar/ResponsiveNavbar'
-import Hero from '../src/components/Hero/Hero'
-import Timeline from '../src/components/Timeline/Timeline'
+import Skills from '../src/components/Skills/Skills'
 import Footer from '../src/components/Footer/Footer'
 
-export default function Home() {
+export default function portfolio() {
   return (
     <>
       <ResponsiveNavbar/>
-      <Hero/>
-      <Timeline/>
+      <Skills/>
       <Footer/>
     </>
   )
