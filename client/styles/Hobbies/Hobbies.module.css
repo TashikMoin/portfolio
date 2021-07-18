@@ -7,28 +7,11 @@
     margin-top: 15vh;
 }
 
-.gallerycontainer {
+.itemcontainer {
     background-color: #ffffff;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     overflow: hidden;
     row-gap: 8vh;
     width: 100%;
-}
-
-.headingcontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15vh;
-}
-
-.heading {
-    color: #000000;
-}
-
-.images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }

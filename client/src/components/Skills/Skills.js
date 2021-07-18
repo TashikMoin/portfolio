@@ -1,6 +1,5 @@
 import React from 'react'
 import SkillsStyle from '../../../styles/Skills/Skills.module.css'
-import imgg from '../../../public/assets/images/hero.jpeg'
 import Image from 'next/image'
 
 function Skills() {
@@ -8,10 +7,10 @@ function Skills() {
     const tools = 
                 [
                  "reactjs.svg", "nestjs.svg", "nextjs.svg", 
-                 "nodejs.svg", "expressjs.svg", "aws.svg", "linux.svg", 
+                 "nodejs.svg", "expressjs.svg", "aws.svg", "azure.svg", "linux.svg", 
                  "nginx.svg", "jenkins.svg", "docker.svg", "kubernetes.svg",
-                 "mysql.svg", "git.svg", "github.svg", "mongodb.svg", "oracledb.svg", 
-                 "tensorflow.svg", "keras.svg", "pytorch.svg", "azure.svg", 
+                 "git.svg", "github.svg", "mysql.svg", "mongodb.svg", "oracledb.svg", 
+                 "tensorflow.svg", "keras.svg", "pytorch.svg", 
                  "html.svg", "css.svg", "sass.svg", "dotnetcore.svg",
                  "c.svg", "cpp.svg", "csharp.svg", "javascript.svg", 
                  "python.svg", "typescript.svg", "mpi.png", "openmp.jpg",

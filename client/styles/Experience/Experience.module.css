@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 7vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.experienceheadingcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.experienceheading {
+    color: #000000;
+}
+
+.headings {
+    color: #6d6d6d;
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+}
+
+.description {
+    margin: 0;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+}
+
+.years {
+    font-size: 1rem;
+    color: #757474;
+}
