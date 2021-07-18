@@ -1,16 +1,34 @@
-.gallerycontainer {
-    background-color: #ffffff;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 15vw;
     margin-right: 15vw;
+    margin-top: 15vh;
+}
+
+.gallerycontainer {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    overflow: hidden;
+    row-gap: 8vh;
+    width: 100%;
 }
 
 .headingcontainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 .heading {
     color: #6d6d6d;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

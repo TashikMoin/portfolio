@@ -7,10 +7,10 @@ function Hero() {
     return (
         <React.Fragment>
             <LazyHero 
-            imageSrc="https://i.picsum.photos/id/677/2000/1000.jpg?hmac=4P_HIHXZzgKwEWxcIeZBVw_YFwxnmo-wwEb_C0m54P0" 
+            imageSrc="/assets/images/hero.jpeg" 
             minHeight='100vh' 
             opacity={0.7}
-            transitionDuration={3000}
+            transitionDuration={2000}
             transitionTimingFunction='ease-in-out'
             >
                 <div className={HeroStyle.herocontainer}>

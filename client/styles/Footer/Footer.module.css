@@ -19,6 +19,7 @@
 
 .social { 
     display: inline-flex;
+    padding: 0;
 }
 
 .social:hover {

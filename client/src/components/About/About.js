@@ -26,7 +26,7 @@ const About = () => {
             <div className={styleAbout.contentContainer}>
 
                 <div className={styleAbout.imageContainer}>
-                    <Image className={styleAbout.image} src={Profile} height={165} width={180}></Image>
+                    <Image className={styleAbout.image} src={Profile} height={160} width={180}></Image>
                 </div>
 
                 <div className={styleAbout.mainHeadingContainer}>
@@ -70,6 +70,8 @@ const About = () => {
                     et dolore magna aliqua. Ut enim ad minim veniam, quis
                     nostrud exercitation.
                 </ReadMore>
+
+                <button className={styleAbout.contact}> Contact </button>
             </div>
         </div>
     )
