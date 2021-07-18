@@ -7,10 +7,10 @@
     margin-top: 15vh;
 }
 
-.itemcontainer {
+.interestcontainer {
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     overflow: hidden;
     row-gap: 8vh;
     width: 100%;

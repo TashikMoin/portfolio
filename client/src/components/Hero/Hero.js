@@ -18,7 +18,7 @@ function Hero() {
                     <h1 className={HeroStyle.second}>
                         <Typewriter
                             options={{
-                            strings: ['A Computer Science Student At FAST NUCES,', 'A Microsoft Gold Student Ambassador,', 'A Microsoft Certified Trainer And A Professional.'],
+                            strings: ['A Computer Science Student At FAST NUCES,', 'A Microsoft Gold Student Ambassador,', 'A Microsoft Certified Trainer And Professional.'],
                             autoStart: true,
                             delay: 50,
                             loop: true,
