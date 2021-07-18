@@ -6,11 +6,27 @@ const Interests = () => {
 
     const data = 
     [
-        "webdevelopment.svg",
-        "deeplearning.webp",
-        "ai.svg",
-        "cloud.svg",
-        "devsecops.webp"
+        {
+            Name: " Web Development",
+            File: "webdevelopment.svg"
+        },
+        {
+            Name: "Deep Learning",
+            File: "deeplearning.webp"
+        },
+        {
+            Name: "Artificial Intelligence",
+            File: "ai.svg"
+        },
+        {
+            Name: "Cloud Computing",
+            File: "cloud.svg"
+        },
+        {
+            Name: "DevSecOps",
+            File: "devsecops.svg"
+        }
+        
     ]
 
     return (
@@ -25,7 +41,8 @@ const Interests = () => {
                         data.map((Item, i) => {
                             return (
                                 <div key={i} className={InterestsStyle.images}>
-                                    <Image src={`/assets/images/${Item}`} height={150} width={200}></Image>
+                                    <Image src={`/assets/images/${Item.File}`} height={150} width={200}></Image>
+                                    <h5> {Item.Name} </h5>
                                 </div>
                             )
                         } )

@@ -36,7 +36,7 @@ const Experience = () => {
         {
             data.map((Item, i) => {
                 return (
-                    <>
+                    <div key={i}>
                     <h3 className={ExperienceStyle.headings}> {Item.Company_Name} 
                         <br/>
                         <span className={ExperienceStyle.years}> {Item.Location} </span>
@@ -45,7 +45,7 @@ const Experience = () => {
                     <p className={ExperienceStyle.description}> 
                         {Item.Description}
                     </p>
-                    </>
+                    </div>
                 )
             } )
         }

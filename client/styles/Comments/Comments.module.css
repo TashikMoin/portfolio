@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 15vh;
+    flex-direction: column;
+}
+
+.commentscontainer {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    overflow: hidden;
+    row-gap: 8vh;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+
+.comment {
+    text-align: justify;
+    word-break: break-all;
+    color: #000000;
+    margin: 0;
+}
+
+.signature {
+    color: #6d6d6d;
+}
+
+.commentbutton {
+    cursor: pointer;
+    margin-top: 5vh;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #000000;
+    height: 6vh;
+    width: 10vw;
+    border: 3px solid #000000;
+}
+
+.commentbutton:hover {
+    background-color: #6d6d6d;
+}

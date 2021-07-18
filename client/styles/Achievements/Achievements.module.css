@@ -1,0 +1,48 @@
+.container {
+    margin: 0;
+    margin-top: 15vh;
+    padding: 0;
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    color: #000000;
+    font-weight: 400;
+}
+
+.clientContainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    width: 100%;
+}
+
+.clients {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+    width: 100%;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.logo {
+    display: inline-flex;
+    margin-right: 1vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    position: relative;
+    height: 20vh;
+    width: 18vw;
+}
+
