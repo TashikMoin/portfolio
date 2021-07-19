@@ -5,6 +5,7 @@ const Experience = dynamic(() => import('../src/components/Experience/Experience
 const Education = dynamic(() => import('../src/components/Education/Education'), {ssr: true})
 const Interests = dynamic(() => import('../src/components/Interests/Interests'), {ssr: true})
 const Skills = dynamic(() => import('../src/components/Skills/Skills'), {ssr: true})
+const CertificationsAndGrades = dynamic(()=> import('../src/components/CertificationsAndGrades/CertificationsAndGrades'), {ssr: true})
 const Achievements = dynamic(() => import('../src/components/Achievements/Achievements'), {ssr: true})
 const Footer = dynamic(() => import('../src/components/Footer/Footer'), {ssr: true})
 
@@ -20,6 +21,7 @@ export default function portfolio() {
       <Education/>
       <Interests/>
       <Skills/>
+      <CertificationsAndGrades/>
       <Achievements/>
       <Footer/>
     </>

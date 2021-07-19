@@ -1,0 +1,20 @@
+.container {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallerycontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow: auto;
+    text-align: center;
+    background: white;
+}
