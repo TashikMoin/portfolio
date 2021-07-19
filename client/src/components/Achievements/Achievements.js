@@ -80,7 +80,7 @@ const Achievements = () => {
                 <h1 className={AchievementsStyle.heading}> Achievements </h1>
                 <div className={AchievementsStyle.clientContainer}>
                     <div className={AchievementsStyle.clients}>
-                        <Ticker offset="run-in" direction="toLeft" mode="smooth">
+                        <Ticker offset="run-in" direction="toLeft" mode="await">
                         {() => (
                         <>
                         {Data.map((Item, i) => {

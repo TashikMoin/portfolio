@@ -8,9 +8,10 @@ import Instagram from '../../../public/assets/images/instagram.svg'
 import Github from '../../../public/assets/images/github.svg'
 import Linkedin from '../../../public/assets/images/linkedin.svg'
 
-const Footer = () => {
+const Footer = ( {setmargintop}) => {
+
     return (
-        <div className={FooterStyle.container}>
+        <div style={{marginTop: setmargintop}} className={FooterStyle.container}>
             <div className={FooterStyle.copyright}>
                 <h1 className={FooterStyle.heading}> © 2021 · Tashik Moin </h1>
             </div>

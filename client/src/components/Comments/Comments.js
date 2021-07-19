@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import CommentsStyle from '../../../styles/Comments/Comments.module.css'
 
 const Comments = () => {
@@ -54,7 +55,9 @@ const Comments = () => {
                         } )
                     }
                 </div>
-                <button className={CommentsStyle.commentbutton}> Add Comment</button>
+                <Link href='/comment'>
+                    <button className={CommentsStyle.commentbutton}> Add Comment</button>
+                </Link>
             </div>
         </div>
     )

@@ -1,7 +1,9 @@
 import React, {useState} from 'react'
 import styleAbout from '../../../styles/About/About.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 import Profile from '../../../public/assets/images/profile.jpg'
+
 
 const ReadMore = ({ children }) => {
     const text = children;
@@ -9,6 +11,7 @@ const ReadMore = ({ children }) => {
     const toggleReadMore = () => {
       setIsReadMore(!isReadMore);
     };
+
     return (
       <p className={styleAbout.text}>
         {isReadMore ? text.slice(0, 1000) : text}
@@ -20,7 +23,15 @@ const ReadMore = ({ children }) => {
 }
 
 
+
+
+
+
+
+
+
 const About = () => {
+
     return (
         <div className={styleAbout.container}>
             <div className={styleAbout.contentContainer}>
@@ -71,7 +82,14 @@ const About = () => {
                     nostrud exercitation.
                 </ReadMore>
 
-                <button className={styleAbout.contact}> Contact </button>
+                <Link href='/contact'>
+                    <button 
+                    className={styleAbout.contact}
+                    > 
+                        Contact 
+                    </button>
+                </Link>
+
             </div>
         </div>
     )

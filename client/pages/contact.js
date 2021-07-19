@@ -1,12 +1,12 @@
 import ResponsiveNavbar from '../src/components/Navbar/ResponsiveNavbar'
-import About from '../src/components/About/About'
+import ContactForm from '../src/components/ContactForm/ContactForm'
 import Footer from '../src/components/Footer/Footer'
 
-export default function about() {
+export default function contact() {
   return (
     <>
       <ResponsiveNavbar/>
-      <About/>
+      <ContactForm/>
       <Footer setmargintop='0px'/>
     </>
   )
