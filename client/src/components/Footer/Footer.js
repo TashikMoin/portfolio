@@ -18,27 +18,27 @@ const Footer = ( {setmargintop}) => {
 
             <div>
                 <div className={FooterStyle.social}>
-                    <a href="https://github.com/TashikMoin"> <Image src={Github} height={30} width={40} /> </a>
+                    <a href="https://github.com/TashikMoin"> <Image alt="" src={Github} height={30} width={40} /> </a>
                 </div>
 
                 <div className={FooterStyle.social}>
-                    <a href="https://www.youtube.com/channel/UC_bxQjn16KukkyWqTY_MZvg/videos"> <Image src={Youtube} height={30} width={40} /> </a>
+                    <a href="https://www.youtube.com/channel/UC_bxQjn16KukkyWqTY_MZvg/videos"> <Image alt="" src={Youtube} height={30} width={40} /> </a>
                 </div>
 
                 <div className={FooterStyle.social}>
-                    <a href="https://www.linkedin.com/in/tashik-moin-sheikh-08872116b/"> <Image src={Linkedin} height={30} width={40} /> </a>
+                    <a href="https://www.linkedin.com/in/tashik-moin-sheikh-08872116b/"> <Image alt="" src={Linkedin} height={30} width={40} /> </a>
                 </div>
 
                 <div className={FooterStyle.social}>
-                    <a href="https://www.facebook.com/TashikMoinSheikh"> <Image src={Facebook} height={30} width={40} /> </a>
+                    <a href="https://www.facebook.com/TashikMoinSheikh"> <Image alt="" src={Facebook} height={30} width={40} /> </a>
                 </div>
 
                 <div className={FooterStyle.social}>
-                    <a href="https://twitter.com/TashikMSheikh"> <Image src={Twitter} height={30} width={40} /> </a>
+                    <a href="https://twitter.com/TashikMSheikh"> <Image alt="" src={Twitter} height={30} width={40} /> </a>
                 </div>
 
                 <div className={FooterStyle.social}>
-                    <a href="https://www.instagram.com/tashikmoinshaikh/"> <Image src={Instagram} height={30} width={40} /> </a>
+                    <a href="https://www.instagram.com/tashikmoinshaikh/"> <Image alt="" src={Instagram} height={30} width={40} /> </a>
                 </div>
             </div>
 

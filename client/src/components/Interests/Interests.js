@@ -41,7 +41,7 @@ const Interests = () => {
                         data.map((Item, i) => {
                             return (
                                 <div key={i} className={InterestsStyle.images}>
-                                    <Image src={`/assets/images/${Item.File}`} height={150} width={200}></Image>
+                                    <Image alt="" src={`/assets/images/${Item.File}`} height={150} width={200}></Image>
                                     <h5> {Item.Name} </h5>
                                 </div>
                             )

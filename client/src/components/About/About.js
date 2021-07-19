@@ -37,7 +37,7 @@ const About = () => {
             <div className={styleAbout.contentContainer}>
 
                 <div className={styleAbout.imageContainer}>
-                    <Image className={styleAbout.image} src={Profile} height={160} width={180}></Image>
+                    <Image alt="" className={styleAbout.image} src={Profile} height={160} width={180}></Image>
                 </div>
 
                 <div className={styleAbout.mainHeadingContainer}>
@@ -82,7 +82,7 @@ const About = () => {
                     nostrud exercitation.
                 </ReadMore>
 
-                <Link href='/contact'>
+                <Link passHref href='/contact'>
                     <button 
                     className={styleAbout.contact}
                     > 

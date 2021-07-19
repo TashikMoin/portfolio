@@ -28,7 +28,7 @@ function Skills() {
                         tools.map((Item, i) => {
                             return (
                                 <div key={i} className={SkillsStyle.images}>
-                                    <Image src={`/assets/images/${Item}`} height={150} width={200}></Image>
+                                    <Image alt="" src={`/assets/images/${Item}`} height={150} width={200}></Image>
                                 </div>
                             )
                         } )

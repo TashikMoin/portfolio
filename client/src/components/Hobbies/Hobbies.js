@@ -26,7 +26,7 @@ const Hobbies = () => {
                         hobbies.map((Item, i) => {
                             return (
                                 <div key={i} className={HobbiesStyle.images}>
-                                    <Image src={`/assets/images/${Item}`} height={100} width={150}></Image>
+                                    <Image alt="" src={`/assets/images/${Item}`} height={100} width={150}></Image>
                                 </div>
                             )
                         } )
