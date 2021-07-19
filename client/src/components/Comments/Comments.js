@@ -55,9 +55,6 @@ const Comments = () => {
                         } )
                     }
                 </div>
-                <Link href='/comment'>
-                    <button className={CommentsStyle.commentbutton}> Add Comment</button>
-                </Link>
             </div>
         </div>
     )

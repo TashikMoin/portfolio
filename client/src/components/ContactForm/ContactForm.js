@@ -61,8 +61,7 @@ const ContactForm = () => {
                     className={ContactFormStyle.message}
                     type="text"
                     ref={Message}
-                    rows="6" 
-                    cols="50"
+                    maxLength="400"
                     placeholder="Enter your message."
                 />
 
