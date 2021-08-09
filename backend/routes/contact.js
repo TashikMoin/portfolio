@@ -57,3 +57,13 @@ router.post("/", (req, res) => {
 });
 
 module.exports = router;
+
+
+// CREATE TABLE `Contact_Details` (
+//     `Name` VARCHAR(40) NOT NULL,
+//     `Email` VARCHAR(45) NOT NULL,
+//     `Contact` VARCHAR(20) NOT NULL,
+//     `Subject` VARCHAR(45) NOT NULL,
+//     `Message` VARCHAR(1000) NOT NULL,
+//      PRIMARY KEY (`Email`)
+//   );
