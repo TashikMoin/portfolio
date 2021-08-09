@@ -1,7 +1,5 @@
 FROM node
 WORKDIR /portfolio/backend
-COPY ./package.json .
-COPY ./package-lock.json .
-RUN npm install
+COPY . /portfolio/backend
 CMD ["node", "app.js"]
 

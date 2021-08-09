@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+
+  # server:
+  #   image: nginx
+  #   ports:
+  #   - 80:80
+  #   volumes:
+  #   - './webserver/conf.d:/etc/nginx/conf.d'
+  #   - './webserver/nginx.conf:/etc/nginx/nginx.conf'
+  #   expose:
+  #   - 80
+
+  backend:
+    build: './backend'
+    image: backend_image
+    ports:
+    - 8080:8080
+    volumes:
+    - './backend:/portfolio/backend'
+    expose:
+    - 8080
+
+  client:
+    build: './client'
+    image: frontend_image
+    ports:
+    - 3000:3000
+    volumes:
+    - './client:/portfolio/client'
+    expose:
+    - 3000
+
+  database:
+    image: mysql
+    ports:
+    - 3306:3306
+    volumes:
+    - './database/portfolio:/var/lib/mysql'
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_DATABASE_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+    expose:
+    - 3306
+
