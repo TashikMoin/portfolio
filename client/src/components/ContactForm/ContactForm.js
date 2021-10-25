@@ -9,24 +9,34 @@ const ContactForm = () => {
     const Subject = useRef('');
     const Message = useRef('');
 
-    const send_message =  (url, data) => {
-        const response = await fetch(url, {
-        method: 'POST',
-        body: JSON.stringify(data),
-        headers: {
-            'Content-type': 'application/json',
-        },
-        'credentials': 'include',
-        });
-        const data = await response.json();
-        return data;    
+    const send_message =  async (_url, _data) => {
+        console.log(_url)
+        console.log(_data)
+        try{
+            console.log(_data)
+            const response = await fetch(_url, {
+            method: 'POST',
+            body: JSON.stringify(_data),
+            headers: {
+                'Content-type': 'application/json',
+            },
+            'credentials': 'include',
+            });
+            const data = await response.json();
+            console.log(data)
+            return data;    
+        }
+        catch (error) {
+            throw new Error(error.message);
+        }
+
       }
 
 
 
     const registerUser = async (event) => {
         event.preventDefault();
-        const url = 'http://localhost:8080/api';
+        const url = 'http://localhost:8080/api/contact';
         const data = { 
             Name: Name.current.value,
             Email: Email.current.value,
@@ -34,7 +44,7 @@ const ContactForm = () => {
             Subject: Subject.current.value,
             Message: Message.current.value
         }
-        send_message(url,data);
+        send_message(url, data);
 
     }
 

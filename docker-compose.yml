@@ -2,16 +2,6 @@ version: '3.8'
 
 services:
 
-  # server:
-  #   image: nginx
-  #   ports:
-  #   - 80:80
-  #   volumes:
-  #   - './webserver/conf.d:/etc/nginx/conf.d'
-  #   - './webserver/nginx.conf:/etc/nginx/nginx.conf'
-  #   expose:
-  #   - 80
-
   backend:
     build: './backend'
     image: backend_image

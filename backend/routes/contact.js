@@ -13,7 +13,7 @@ const database_connection = mysql.createPool(
         multipleStatements: true,
         waitForConnections: true,
         connectionLimit: 100,
-        queueLimit: 0,
+        queueLimit: 0
     }
 );
 
@@ -49,6 +49,7 @@ router.post("/", (req, res) => {
           Message: req.body.Message
         };
         Add_Contact(contact_information);
+        console.log(contact_information)
         return res.status(200).json({ msg: 'Message sent successfully!' });
     } 
     catch (error) {
